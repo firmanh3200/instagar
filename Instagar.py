@@ -51,7 +51,7 @@ st.subheader('', divider='green')
 # LUAS KECAMATAN
 with st.expander('Luas Kecamatan'):
     with st.container(border=True):
-        st.subheader('Luas Kabupaten Subang menurut Kecamatan (Km2)')
+        st.subheader('Luas Kabupaten Garut menurut Kecamatan (Km2)')
 
         # URL luas wilayah
         url = "https://data.jabarprov.go.id/api-backend//bigdata/dpmdes/idm_luas_wilayah_desa__des_kel?limit=1000&skip=0&where=%7B%22bps_nama_kabupaten_kota%22%3A%5B%22KABUPATEN+GARUT%22%5D%2C%22tahun%22%3A%5B%222020%22%5D%7D"
